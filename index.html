@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang="en"><head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width">
+    <script src="landingPage.js"></script>
+    <title>Eco-Freq-o</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sarpanch">
+  </head>
+  <body>
+    <audio id="introSound">
+      <source src="/assets/sounds/treesSound.mp3" type="audio/mpeg">
+    </audio>
+
+    <video id="background-video" onclick="playVideo()">
+      <source src="/assets/backgrounds/trees-AC.mp4" type="video/mp4">
+    </video>
+
+    <div id="content">
+      <div id="description">
+        <p onclick="playVideo()" style="float: center">
+          A sonic exploration into unsustainable futures.
+        </p>
+
+        <h1 id="title" onclick="playVideo()" class="glitch" data-text="ECO-FREQ-O">
+          ECO-FREQ-O
+        </h1>
+
+        <h3 onclick="playVideo()" id="enter">click to enter</h3>
+      </div>
+    </div>
+    <div class="landingPage">
+      <img src="/assets/backgrounds/vhs.gif" class="background-glitch" onclick="playVideo()" style="width:100%;">
+
+      <img src="/assets/backgrounds/lines.gif" class="background-glitch" onclick="playVideo()" style="width:100%;">
+    </div>
+  
+
+</body></html>
